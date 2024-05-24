@@ -1,9 +1,6 @@
 import socket
 import threading
 import os
-from random import randint
-from prometheus_client import start_http_server, Gauge
-from guizero import App
 
 
 def kill_process_using_port(port):
@@ -11,7 +8,6 @@ def kill_process_using_port(port):
     os.system(f'lsof -ti:{port} | xargs kill -9')   
 
 class Server:
-    cpu_usage = Gauge('cpu_usage', 'CPU usage of the server')
     def __init__(self, host, port):
         # Initialize the server with host and port
         self.host = host
