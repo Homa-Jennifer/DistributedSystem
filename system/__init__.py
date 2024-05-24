@@ -1,9 +1,6 @@
 import socket
 import threading
 import os
-import psutil
-import sys
-import time
 from random import randint
 from prometheus_client import start_http_server, Gauge
 from guizero import App
