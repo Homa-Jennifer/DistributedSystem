@@ -1,0 +1,15 @@
+[project]
+name = "Distributed System Project"
+author = [
+    {name = "Jennifer Homa", email = "jenniferogbuigba40@gmail.com"}
+]
+maintainers =[
+    {name = "Jennifer Homa", email = "jenniferogbuigba40@gmail.com"}
+]
+description = "A server client chat system designed to illustrate the basic architecture of a Distributed system"
+readme = none
+license = {file = "LICENSE"}
+dynamic = ["version"]
+
+[project.url]
+HOME = "C:\Users\USER\Documents\Ditributed System Final\system"
